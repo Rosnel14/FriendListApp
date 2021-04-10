@@ -10,7 +10,6 @@
 
 @implementation ListNode : NSObject
 
-//test commit
 
 - (instancetype)initWithObject:(id)object {
     self = [super init];

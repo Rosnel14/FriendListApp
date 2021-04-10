@@ -10,7 +10,6 @@
 
 
 
-
 @interface ListNode:NSObject
 
 @property  id object;

@@ -25,6 +25,9 @@
 
 -(void)add:(ObjectType)object;
 
+//inserts object at end of list
+-(void)rAdd:(id)object;
+
  
 
 // adds a value at an index
@@ -92,6 +95,9 @@
 // this can be done by using other previously written methods
 
 -(int) removeOccurences:(ObjectType) item;
+
+
+-(int)returnIndex:(ListNode *)node;
 
 @end
 

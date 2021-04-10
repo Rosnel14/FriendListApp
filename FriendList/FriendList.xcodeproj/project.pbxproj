@@ -16,6 +16,7 @@
 		98519A0726208A6D00259E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A0626208A6D00259E3B /* main.m */; };
 		98519A1126208DF500259E3B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1026208DF500259E3B /* LinkedList.m */; };
 		98519A1526208E3000259E3B /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1426208E3000259E3B /* ListNode.m */; };
+		98519A1B26209A0E00259E3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1A26209A0E00259E3B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		98519A0F26208DD800259E3B /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		98519A1026208DF500259E3B /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 		98519A1426208E3000259E3B /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		98519A19262094FF00259E3B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		98519A1A26209A0E00259E3B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				985199F526208A6B00259E3B /* AppDelegate.m */,
 				985199F726208A6B00259E3B /* SceneDelegate.h */,
 				98519A0E26208DAB00259E3B /* LinkedList.h */,
+				98519A19262094FF00259E3B /* Person.h */,
+				98519A1A26209A0E00259E3B /* Person.m */,
 				98519A0F26208DD800259E3B /* ListNode.h */,
 				98519A1026208DF500259E3B /* LinkedList.m */,
 				98519A1426208E3000259E3B /* ListNode.m */,
@@ -157,6 +162,7 @@
 			files = (
 				985199FC26208A6B00259E3B /* ViewController.m in Sources */,
 				98519A1526208E3000259E3B /* ListNode.m in Sources */,
+				98519A1B26209A0E00259E3B /* Person.m in Sources */,
 				985199F626208A6B00259E3B /* AppDelegate.m in Sources */,
 				98519A0726208A6D00259E3B /* main.m in Sources */,
 				98519A1126208DF500259E3B /* LinkedList.m in Sources */,
