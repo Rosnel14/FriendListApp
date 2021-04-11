@@ -17,6 +17,7 @@
 		98519A1126208DF500259E3B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1026208DF500259E3B /* LinkedList.m */; };
 		98519A1526208E3000259E3B /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1426208E3000259E3B /* ListNode.m */; };
 		98519A1B26209A0E00259E3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1A26209A0E00259E3B /* Person.m */; };
+		98519A1F262224C700259E3B /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519A1E262224C700259E3B /* backGround.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		98519A1426208E3000259E3B /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		98519A19262094FF00259E3B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		98519A1A26209A0E00259E3B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		98519A1E262224C700259E3B /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				985199FA26208A6B00259E3B /* ViewController.h */,
 				985199FB26208A6B00259E3B /* ViewController.m */,
 				985199FD26208A6B00259E3B /* Main.storyboard */,
+				98519A1E262224C700259E3B /* backGround.jpg */,
 				98519A0026208A6D00259E3B /* Assets.xcassets */,
 				98519A0226208A6D00259E3B /* LaunchScreen.storyboard */,
 				98519A0526208A6D00259E3B /* Info.plist */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98519A0426208A6D00259E3B /* LaunchScreen.storyboard in Resources */,
+				98519A1F262224C700259E3B /* backGround.jpg in Resources */,
 				98519A0126208A6D00259E3B /* Assets.xcassets in Resources */,
 				985199FF26208A6B00259E3B /* Main.storyboard in Resources */,
 			);

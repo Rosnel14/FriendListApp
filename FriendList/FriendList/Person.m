@@ -50,5 +50,14 @@
     }
 }
 
+-(Person *)getFriend:(ListNode *)node {
+    
+    Person * friend = [[Person alloc]init];
+    
+    friend = node.object;
+    
+    return friend;
+}
+
 
 @end

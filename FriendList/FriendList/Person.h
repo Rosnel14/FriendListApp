@@ -27,6 +27,7 @@
 //sad method
 -(void)removeFriend:(Person *)newFriend;
 
+-(Person *)getFriend:(ListNode *)node;
 
 
 
