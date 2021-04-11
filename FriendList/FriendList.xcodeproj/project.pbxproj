@@ -11,13 +11,13 @@
 		985199F926208A6B00259E3B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985199F826208A6B00259E3B /* SceneDelegate.m */; };
 		985199FC26208A6B00259E3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985199FB26208A6B00259E3B /* ViewController.m */; };
 		985199FF26208A6B00259E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985199FD26208A6B00259E3B /* Main.storyboard */; };
-		98519A0126208A6D00259E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98519A0026208A6D00259E3B /* Assets.xcassets */; };
 		98519A0426208A6D00259E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98519A0226208A6D00259E3B /* LaunchScreen.storyboard */; };
 		98519A0726208A6D00259E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A0626208A6D00259E3B /* main.m */; };
 		98519A1126208DF500259E3B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1026208DF500259E3B /* LinkedList.m */; };
 		98519A1526208E3000259E3B /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1426208E3000259E3B /* ListNode.m */; };
 		98519A1B26209A0E00259E3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1A26209A0E00259E3B /* Person.m */; };
 		98519A1F262224C700259E3B /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519A1E262224C700259E3B /* backGround.jpg */; };
+		98519A2B2622986F00259E3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98519A2A2622986F00259E3B /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,6 @@
 		985199FA26208A6B00259E3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		985199FB26208A6B00259E3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		985199FE26208A6B00259E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		98519A0026208A6D00259E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98519A0326208A6D00259E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98519A0526208A6D00259E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98519A0626208A6D00259E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		98519A19262094FF00259E3B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		98519A1A26209A0E00259E3B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		98519A1E262224C700259E3B /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		98519A2A2622986F00259E3B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../../Documents/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,7 @@
 		985199F326208A6B00259E3B /* FriendList */ = {
 			isa = PBXGroup;
 			children = (
+				98519A2A2622986F00259E3B /* icon.png */,
 				985199F426208A6B00259E3B /* AppDelegate.h */,
 				985199F526208A6B00259E3B /* AppDelegate.m */,
 				985199F726208A6B00259E3B /* SceneDelegate.h */,
@@ -86,7 +87,6 @@
 				985199FB26208A6B00259E3B /* ViewController.m */,
 				985199FD26208A6B00259E3B /* Main.storyboard */,
 				98519A1E262224C700259E3B /* backGround.jpg */,
-				98519A0026208A6D00259E3B /* Assets.xcassets */,
 				98519A0226208A6D00259E3B /* LaunchScreen.storyboard */,
 				98519A0526208A6D00259E3B /* Info.plist */,
 				98519A0626208A6D00259E3B /* main.m */,
@@ -151,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98519A0426208A6D00259E3B /* LaunchScreen.storyboard in Resources */,
+				98519A2B2622986F00259E3B /* icon.png in Resources */,
 				98519A1F262224C700259E3B /* backGround.jpg in Resources */,
-				98519A0126208A6D00259E3B /* Assets.xcassets in Resources */,
 				985199FF26208A6B00259E3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

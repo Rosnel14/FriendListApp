@@ -22,6 +22,18 @@
     [super viewDidLoad];
     currentUser = [[Person alloc]init];
 }
+- (IBAction)removeFriendBtn:(id)sender {
+    NSString * n = _removeFriendBox.text;
+    ListNode * temp = [[ListNode alloc]init];
+    temp = currentUser.friends.head;
+    
+    for (int i = 0; i < [currentUser.friends count]-1; i++) {
+        if ([currentUser getFriend:temp].name == n) {
+            [currentUser removeFriend:[currentUser getFriend:temp]];
+        }
+        temp = temp.next;
+    }
+}
 
 - (IBAction)setName:(id)sender {
    currentUser.name = _nameBox.text;
@@ -46,6 +58,26 @@
     [[currentUser getFriend:currentUser.friends.first] addFriend:Bob];
 }
 - (IBAction)createInvitationList:(id)sender {
+    
+//    NSString *str = @"hello ";
+//    str = [str stringByAppendingString:@"world"];
+    
+    NSMutableArray * tableDisplay = [[NSMutableArray alloc]init];
+    
+    tableDisplay = [self makeInvitationList:currentUser];
+    
+    NSString * labelText;
+    NSString * tempString;
+    
+    for(int i = 0; [tableDisplay count]-1; i++) {
+        
+        tempString = [tableDisplay objectAtIndex:i];
+        labelText = [labelText stringByAppendingString:tempString];
+    }
+    
+    
+    _ListDisplay.text = labelText; 
+
 }
 
 //the person passed into this method should be the user,
@@ -64,10 +96,10 @@
     aux = [[Person getFriend:main].friends first]; //point to the first node in the friend list of the first friend
 
     for (int i = 0; i < [Person.friends count]-1; i++) {
-        [table addObject:[Person getFriend:main]]; //store the first friend
+        [table addObject:[Person getFriend:main].name]; //store the first friend
         
         for(int i = 0; i< [[Person getFriend:main].friends count]-1; i++) { //go into the friend list of current friend
-            [table addObject:[Person getFriend:aux]];
+            [table addObject:[Person getFriend:aux].name];
             
             aux = aux.next;
             

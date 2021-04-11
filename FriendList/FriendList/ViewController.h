@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameBox;
 @property (weak, nonatomic) IBOutlet UITextField *addFriendBox;
 @property (weak, nonatomic) IBOutlet UILabel *ListDisplay;
-
+@property (weak, nonatomic) IBOutlet UITextField *removeFriendBox;
 
 
 
