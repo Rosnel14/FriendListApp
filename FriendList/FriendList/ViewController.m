@@ -10,9 +10,7 @@
 #import "LinkedList.h"
 #import "Person.h"
 
-@interface ViewController ()
 
-@end
 
 @implementation ViewController
 
@@ -77,10 +75,31 @@
         main = main.next;
         
         
+        
 }
     
 
+    //finally remove duplicates
+    table = [self removeDuplicates:table];
+    
+    //return invitation list
     return table;
+}
+
+//this is for removing duplicates
+//so that you don't invite people twice
+-(NSMutableArray *) removeDuplicates: (NSMutableArray *)table {
+    
+    //start at one value and compare it to the whole list
+    //then move to the next value and compare it against the list again
+    for (int i = 0; i < [table count]-1; i++) {
+        for (int j = i+1; j < [table count]-1; j++) {
+            if ([table objectAtIndex:i] == [table objectAtIndex:j]) {
+                [table removeObjectAtIndex:i];
+            }
+        }
+    }
+    return  table;
 }
 
 @end
