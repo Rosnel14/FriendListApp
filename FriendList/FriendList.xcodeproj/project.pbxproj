@@ -18,6 +18,7 @@
 		98519A1B26209A0E00259E3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98519A1A26209A0E00259E3B /* Person.m */; };
 		98519A1F262224C700259E3B /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519A1E262224C700259E3B /* backGround.jpg */; };
 		98519A2B2622986F00259E3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98519A2A2622986F00259E3B /* icon.png */; };
+		98519A2F2622A22600259E3B /* pleasereadme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 98519A2E2622A22600259E3B /* pleasereadme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		98519A1A26209A0E00259E3B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		98519A1E262224C700259E3B /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
 		98519A2A2622986F00259E3B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../../Documents/icon.png; sourceTree = "<group>"; };
+		98519A2E2622A22600259E3B /* pleasereadme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pleasereadme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				985199F826208A6B00259E3B /* SceneDelegate.m */,
 				985199FA26208A6B00259E3B /* ViewController.h */,
 				985199FB26208A6B00259E3B /* ViewController.m */,
+				98519A2E2622A22600259E3B /* pleasereadme.txt */,
 				985199FD26208A6B00259E3B /* Main.storyboard */,
 				98519A1E262224C700259E3B /* backGround.jpg */,
 				98519A0226208A6D00259E3B /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				98519A0426208A6D00259E3B /* LaunchScreen.storyboard in Resources */,
 				98519A2B2622986F00259E3B /* icon.png in Resources */,
 				98519A1F262224C700259E3B /* backGround.jpg in Resources */,
+				98519A2F2622A22600259E3B /* pleasereadme.txt in Resources */,
 				985199FF26208A6B00259E3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
